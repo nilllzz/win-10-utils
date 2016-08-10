@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HotCorners.Properties
+namespace SpotifyNotification.Properties
 {
 
 
