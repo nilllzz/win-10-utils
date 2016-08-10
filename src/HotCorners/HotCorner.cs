@@ -28,11 +28,11 @@ namespace HotCorners
                 case ScreenCorner.TopLeft:
                     return new Point(screen.Bounds.X, screen.Bounds.Y);
                 case ScreenCorner.TopRight:
-                    return new Point(screen.Bounds.X + screen.Bounds.Width, screen.Bounds.Y);
+                    return new Point(screen.Bounds.Right, screen.Bounds.Y);
                 case ScreenCorner.BottomLeft:
-                    return new Point(screen.Bounds.X, screen.Bounds.Y + screen.Bounds.Height);
+                    return new Point(screen.Bounds.X, screen.Bounds.Bottom);
                 case ScreenCorner.BottomRight:
-                    return new Point(screen.Bounds.X + screen.Bounds.Width, screen.Bounds.Y + screen.Bounds.Height);
+                    return new Point(screen.Bounds.Right, screen.Bounds.Bottom);
             }
 
             return Point.Empty;
