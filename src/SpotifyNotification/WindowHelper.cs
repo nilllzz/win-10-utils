@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace SpotifyNotification
 {
-    static class WindowHelper
+    internal static class WindowHelper
     {
         [DllImport("USER32.DLL")]
         private static extern bool SetForegroundWindow(IntPtr hWnd);

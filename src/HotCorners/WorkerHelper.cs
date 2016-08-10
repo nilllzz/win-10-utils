@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace SpotifyNotification
+namespace HotCorners
 {
     internal static class WorkerHelper
     {

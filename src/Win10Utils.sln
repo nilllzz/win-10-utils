@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyNotification", "SpotifyNotification\SpotifyNotification.csproj", "{32D3505C-B30F-4AEC-B630-1DA56AE8859D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotCorners", "HotCorners\HotCorners.csproj", "{F93C1951-E907-4169-A45E-23B419AFC7FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{32D3505C-B30F-4AEC-B630-1DA56AE8859D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32D3505C-B30F-4AEC-B630-1DA56AE8859D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32D3505C-B30F-4AEC-B630-1DA56AE8859D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93C1951-E907-4169-A45E-23B419AFC7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93C1951-E907-4169-A45E-23B419AFC7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93C1951-E907-4169-A45E-23B419AFC7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93C1951-E907-4169-A45E-23B419AFC7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

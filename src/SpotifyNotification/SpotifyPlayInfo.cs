@@ -3,7 +3,7 @@
     /// <summary>
     /// Info about currently playing song/artist.
     /// </summary>
-    struct SpotifyPlayInfo
+    internal struct SpotifyPlayInfo
     {
         public readonly string Song;
         public readonly string Artist;
